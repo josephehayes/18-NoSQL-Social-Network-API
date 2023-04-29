@@ -1,10 +1,10 @@
-const { Schema, Types } = require('mongoose');
+const { Schema, Types } = require("mongoose");
 
-const reactionSchema = new Schema(
+const ReactionSchema = new Schema(
   {
     reactionId: {
       type: Schema.Types.ObjectId,
-      default: () => new Types.ObjectId(),
+      default: new Types.ObjectId(),
     },
     reactionBody: {
       type: String,
@@ -20,7 +20,6 @@ const reactionSchema = new Schema(
       default: Date.now,
     },
   },
-  //Confirm whether below is accurate code for the requirements on this model
   {
     toJSON: {
       getters: true,
@@ -29,4 +28,4 @@ const reactionSchema = new Schema(
   }
 );
 
-module.exports = reactionSchema;
+module.exports = ReactionSchema;
