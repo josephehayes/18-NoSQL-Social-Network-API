@@ -12,4 +12,4 @@ To run the program:
 * Run the server file with "npm start"
 * Open Insomnia to view or change database data points.
 
-Demonstration video with working routes: [NoSQL Social Network API](link)
+Demonstration video with working routes: [NoSQL Social Network API](https://drive.google.com/file/d/1hujMjfvAbBpVSmudDkWn1JoZCzelSa71/view)
